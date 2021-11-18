@@ -163,13 +163,13 @@ public class Examples {
 	/** Get Holdings */
 	public void getHolding(SmartConnect smartConnect) throws SmartAPIException, IOException {
 		// Returns Holding.
-		JSONObject response = smartConnect.getHolding();
+		JSONArray response = smartConnect.getHolding();
 	}
 
 	/** Get Position */
 	public void getPosition(SmartConnect smartConnect) throws SmartAPIException, IOException {
 		// Returns Position.
-		JSONObject response = smartConnect.getPosition();
+		JSONArray response = smartConnect.getPosition();
 	}
 
 	/** convert Position */
